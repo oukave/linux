@@ -19,11 +19,17 @@ ls [opção]... [diretório]...
 
 - `-L` : Seguir links simbólicos para listar o destino.
 
+- `-Q` : Faz o comando `ls` encapsular os item usando aspas duplas.
+
 - `-R` : Faz o comando `ls` listar subdiretórios recursivamente.
 
 - `-S` : Faz o comando ordenar os item por tamanho. ( decrescente ).
 
 - `-T` : Usa tabs na saída formatada ao invés de espaços.
+
+- `-X` : Faz o comando `ls` ordenar os item alfabeticamente considerando primeiro as extensões.
+
+- `-Z` : Faz o comando `ls` exibir o contexto de seguraça de cada arquivo.
 
 - `-a` : Faz com que o comando `ls` também liste os itens ocultos, inclusive os diretórios especiais `.` e `..`.
 
@@ -53,4 +59,4 @@ ls [opção]... [diretório]...
 
 - `-w` : Define a largura das colunas da saída formatada.
 
-- `-x` : Faz o comando `ls` listar o itens em colunas mas usar uma ordenação na horizontal. (ordena por linha).
+- `-x` : Faz o comando `ls` listar o itens em colunas, mas usar uma ordenação na horizontal. (ordena os itens por linha).
